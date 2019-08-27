@@ -87,7 +87,7 @@ function spotify(song){
     }
     var searchResult = data.tracks.items;
 
-  for (var i = 0; i < searchResult.length; i++) {
+  for (var i = 0; i < searchResult.length; i++) { 
     console.log("\n SPOTIFY SEARCH RESULTS \n");
     console.log(("Artist(s): " + searchResult[0].artists[0].name));
     console.log(("Song Title: " + searchResult[0].name));

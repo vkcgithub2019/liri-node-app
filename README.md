@@ -11,7 +11,7 @@ The search for movie-this will output the title of the movie, year the movie cam
 
 In addition to logging the data to the terminal, the data will output to a .txt file call log.txt.
 
-This program demonstrates the use of node.js for back-end server use.
+This program demonstrates the use of node.js for back-end server use.   
 
 Technology:
 jsNode, javascript, NPMs and APIs
@@ -69,7 +69,9 @@ Date of Event: 08/26/2019
 
 ****************************************************
 
-Here are the links to my portfolio. 
+Here are the link to my portfolio. 
+https://vkcgithub2019.github.io/Responsive-Portfolio/
 
-https://github.com/vkcgithub2019/liri-node-app
+Here is the link to the deployed version 
 https://vkcgithub2019.github.io/liri-node-app/
+
