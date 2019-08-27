@@ -69,7 +69,7 @@ Date of Event: 08/26/2019
 
 ****************************************************
 
-Here are the link to my portfolio. 
+Here is the link to my portfolio. 
 https://vkcgithub2019.github.io/Responsive-Portfolio/
 
 Here is the link to the deployed version 
