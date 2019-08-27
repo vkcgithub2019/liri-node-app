@@ -119,7 +119,7 @@ function movieThis() {
   // Make a request to the OMDB API with the movie specified
   var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
   var defaultUrl = "http://www.omdbapi.com/?t=mr+nobody+&y=&plot=short&apikey=trilogy";
-n
+
   request(queryUrl, function (error, response, body) {
 
     // If the request is successful
