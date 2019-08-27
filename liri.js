@@ -67,10 +67,11 @@ function concertThis() {
 
 // spotify function
 
-function spotify(){
-  var command = process.argv[2];
+function spotify(song){
+  // var command = song || process.argv[2];
   // Add .slice(3).join(" ") so users can do multi-word searches without having to use quotation marks
-  var songTitle = process.argv.slice(3).join(" ");
+  // if song is true, set that equal to songTitle, else, use process.agrv and reference what the user entered in the command line
+  var songTitle = song || process.argv.slice(3).join(" ");
 
   if (!songTitle) {
     songTitle = "The Sign Ace of Base";
@@ -118,17 +119,16 @@ function movieThis() {
   // Make a request to the OMDB API with the movie specified
   var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
   var defaultUrl = "http://www.omdbapi.com/?t=mr+nobody+&y=&plot=short&apikey=trilogy";
-
+n
   request(queryUrl, function (error, response, body) {
 
     // If the request is successful
     if (!error && response.statusCode === 200) {
-   
       console.log("\n OMDB search results \n");
       console.log("Title of Movie: " + JSON.parse(body).Title);
       console.log("Release Year: " + JSON.parse(body).Year);
       console.log("IMDB Rating: " + JSON.parse(body).imdbRating);
-      console.log("Rotten Tomatoes Rating: " + JSON.parse(body).Ratings[1].Value);
+      console.log("Rotten Tomatoes Rating: " + JSON.parse(body).Ratings[0].Value);
       console.log("Country where the movie was produced: " + JSON.parse(body).Country);
       console.log("Language: " + JSON.parse(body).Language);
       console.log("Plot: " + JSON.parse(body).Plot);
@@ -137,7 +137,7 @@ function movieThis() {
 
       fs.appendFile("log.txt", "\n OMDB search results\n\n" + "Title of Movie: " + JSON.parse(body).Title + "\n" +
         "Release Year: " + JSON.parse(body).Year + "\n" + "IMDB Rating: " + JSON.parse(body).imdbRating + "\n" +
-        "Rotten Tomatoes Rating: " + JSON.parse(body).Ratings[1].Value + "\n" + "Country where the movie was produced: " + JSON.parse(body).Country + "\n" +
+        "Rotten Tomatoes Rating: " + JSON.parse(body).Ratings[0].Value + "\n" + "Country where the movie was produced: " + JSON.parse(body).Country + "\n" +
         "Language: " + JSON.parse(body).Language + "\n" + "Plot: " + JSON.parse(body).Plot + "\n" + "Actors: " + JSON.parse(body).Actors +
         "\n\n -------------------------------------- \n" + "\n", function (err) {
           if (err) {
@@ -152,9 +152,10 @@ function movieThis() {
 // Function 'do what it says'
 
 function doWhatItSays() {
-  fs.writeFile("random.txt", 'spotify-this-song,"I Want it That Way"', function (err) {
-    var song = "spotify-this-song 'I Want it That Way'"
+  fs.writeFile("random.txt", 'spotify-this-song,"I Want it That Way', function (err) {
+    var song = "I Want it That Way"
     // print errors to the console.
+    spotify(song);
     if (err) {
       return console.log(err);
     };
