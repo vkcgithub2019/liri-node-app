@@ -41,9 +41,8 @@ function concertThis() {
 
   // query Bandsintown API with the artist specified using api key 'codingbootcamp'
   var artistQueryURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
-
+//   "https://rest.bandsintown.com/artists/beatles/events?app_id=codingbootcamp
   request(artistQueryURL, function (error, response, body) {
-
     // If the request is successful
     if (!error && response.statusCode === 200) {
 
