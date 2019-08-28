@@ -75,7 +75,7 @@ https://vkcgithub2019.github.io/Responsive-Portfolio/
 Here is the link to the deployed version 
 https://vkcgithub2019.github.io/liri-node-app/
 
-
+![image](/images/liri-bot.png)
 
 Version: 01 8-26-2019 
 Author: Victor Chung, UW Coding Bootcamp
