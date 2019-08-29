@@ -8,7 +8,7 @@
  var moment = require('moment');
  var fs = require('fs');
  var liriOutput = process.argv[2];
- 
+
 
  // switch commands
  switch (liriOutput) {
@@ -52,11 +52,11 @@
        var datetime = JSON.parse(body)[0].datetime;
        datetime = moment().format("MM/DD/YYYY");
        console.log("Date of Event: " + datetime);
-       console.log("\n****************************************************\n");
+       console.log("\n________________________________________________\n");
 
-       fs.appendFile("log.txt", "\n*********** BANDS IN TOWN SEARCH RESULTS ***********\n\n" + "Lineup: " + JSON.parse(body)[0].lineup + "\n" + "Name of Venue: " + JSON.parse(body)[0].venue.name + "\n" +
+       fs.appendFile("log.txt", "\_______________ BANDS IN TOWN SEARCH RESULTS_____________\n\n" + "Lineup: " + JSON.parse(body)[0].lineup + "\n" + "Name of Venue: " + JSON.parse(body)[0].venue.name + "\n" +
          "Venue Location: " + JSON.parse(body)[0].venue.city + ", " + JSON.parse(body)[0].venue.country + "\n" +
-         "Date of Event: " + datetime + "\n\n****************************************************\n" + "\n", function (err) {
+         "Date of Event: " + datetime + "\n\__________________________________________\n" + "\n", function (err) {
            if (err) {
              return console.log(err);
            };
@@ -88,7 +88,7 @@
      }
      var searchResult = data.tracks.items;
 
-   for (var i = 0; i < searchResult.length; i++) { 
+  // for (var i = 0; i < searchResult.length; i++) { 
      console.log("\n SPOTIFY SEARCH RESULTS \n");
      console.log(("Artist(s): " + searchResult[0].artists[0].name));
      console.log(("Song Title: " + searchResult[0].name));
@@ -103,7 +103,7 @@
            return console.log(err);
          };
        })
-   }})
+   })
  }
 
  // function movie this - OMDB 
