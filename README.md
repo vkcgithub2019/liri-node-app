@@ -17,10 +17,10 @@ Technology:
 jsNode, javascript, NPMs and APIs
 ----------------------------------------------------------------------------------------------------
 
-![images](../concert-this.png)
-![images](liri-node-app/do-what-it-says.png)
-![images](liri-node-app/movie-this.png)
-![images](liri-node-app/spotify-this-song.png)
+![images](concert-this.png)
+![images](do-what-it-says.png)
+![images](movie-this.png)
+![images](spotify-this-song.png)
 
 
 
