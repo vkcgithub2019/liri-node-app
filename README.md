@@ -20,7 +20,7 @@ jsNode, javascript, NPMs and APIs
 ![images](concert-this.png)
 ![images](do-what-it-says.png)
 ![images](movie-this.png)
-![images](spotify-this-song)
+![images](spotify-this-song.png)
 
 
 
