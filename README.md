@@ -15,7 +15,18 @@ This program demonstrates the use of node.js for back-end server use.
 
 Technology:
 jsNode, javascript, NPMs and APIs
--------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+![images](concert-this.png)
+![images](do-what-it-says.png)
+![images](movie-this.png)
+![images](spotify-this-song)
+
+
+
+
+
+
 Screen shots from running the liri-bot (Victor Chung)
 
 vkc88@LAPTOP-JFQ79OFP MINGW64 ~/Desktop/liri-node-app (master)

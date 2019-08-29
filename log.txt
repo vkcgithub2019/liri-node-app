@@ -4018,3 +4018,35 @@ Album: The Definitive Collection
 
 ****************************************************
 
+_______________ BANDS IN TOWN SEARCH RESULTS_____________
+
+Lineup: Snoop Dogg
+Name of Venue: Cabana Pool Bar
+Venue Location: Toronto, Canada
+Date of Event: 08/28/2019
+__________________________________________
+
+
+ OMDB search results
+
+Title of Movie: Avenger
+Release Year: 2006
+IMDB Rating: 5.7
+Rotten Tomatoes Rating: 5.7/10
+Country where the movie was produced: USA
+Language: English
+Plot: A C.I.A. Agent steps in to stop a former Special Forces Operative on a for-hire mission that poses a global threat.
+Actors: Sam Elliott, Timothy Hutton, James Cromwell, William Hope
+
+ -------------------------------------- 
+
+
+************** SPOTIFY SEARCH RESULTS **************
+
+Artist(s): Backstreet Boys
+Song Title: I Want It That Way
+URL Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=2363db9ef2664c75b33788a495ce2e32
+Album: The Hits--Chapter One
+
+****************************************************
+
