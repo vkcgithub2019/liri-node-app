@@ -17,10 +17,10 @@ Technology:
 jsNode, javascript, NPMs and APIs
 ----------------------------------------------------------------------------------------------------
 
-![images](concert-this.png)
-![images](do-what-it-says.png)
-![images](movie-this.png)
-![images](spotify-this-song.png)
+![images](https://github.com/vkcgithub2019/liri-node-app/blob/master/images/concert-this.png?raw=true)
+![images](https://github.com/vkcgithub2019/liri-node-app/blob/master/images/do-what-it-says.png?raw=true)
+![images](https://github.com/vkcgithub2019/liri-node-app/blob/master/images/movie-this.png?raw=true)
+![images](https://github.com/vkcgithub2019/liri-node-app/blob/master/images/movie-this.png?raw=true)
 
 
 
