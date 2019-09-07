@@ -21,7 +21,7 @@ Screen shots from running the liri-bot (Victor Chung)
 ![images](https://github.com/vkcgithub2019/liri-node-app/blob/master/images/concert-this.png?raw=true)
 ![images](https://github.com/vkcgithub2019/liri-node-app/blob/master/images/do-what-it-says.png?raw=true)
 ![images](https://github.com/vkcgithub2019/liri-node-app/blob/master/images/movie-this.png?raw=true)
-![images](https://github.com/vkcgithub2019/liri-node-app/blob/master/images/movie-this.png?raw=true)
+![images](https://github.com/vkcgithub2019/liri-node-app/blob/master/images/spotify-this-song.png?raw=true)
 
 
 Version: 01 8-26-2019 
