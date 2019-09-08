@@ -1,5 +1,7 @@
 # liri-node-app
-LIRI: language interpretation and recognition interface.This is a command line node app that takes in paramaters and return requested data. LIRI will search using commands like Spotify for songs, Bands in Town for concerts, and OMDB for movies. Axios package is used to retreive data from the OMDB API. In the terminal, at the command line, the user has to input what they want to search, such as: liri.js concert-this artist/band name, liri.js spotify-this-song , liri.js movie-this , and liri.js do-what-it-says. The search items does not have to be in quotation marks.
+LIRI: language interpretation and recognition interface.This is a command line node app that takes in paramaters and return requested data. LIRI will search using commands like Spotify for songs, Bands in Town for concerts, and OMDB for movies. Axios package is used to retreive data from the OMDB API and from the Bands in TownAPI. 
+
+In the terminal, at the command line, the user has to input what they want to search, such as: liri.js concert-this artist/band name, liri.js spotify-this-song , liri.js movie-this , and liri.js do-what-it-says. The search items does not have to be in quotation marks.
 
 If the user just put in liri.js spotify-this-song and no name of the song was given, the program will default to "The Sign" by Ace of the Base. If the user just input liri.js movie-this and no movie name is provided, the program will output data for the movie 'Mr. Nobody'.
 
@@ -21,6 +23,7 @@ Screen shots from running the liri-bot (Victor Chung)
 ![images](https://github.com/vkcgithub2019/liri-node-app/blob/master/images/concert-this.png?raw=true)
 ![images](https://github.com/vkcgithub2019/liri-node-app/blob/master/images/do-what-it-says.png?raw=true)
 ![images](https://github.com/vkcgithub2019/liri-node-app/blob/master/images/movie-this.png?raw=true)
+
 ![images](https://github.com/vkcgithub2019/liri-node-app/blob/master/images/spotify-this-song.png?raw=true)
 
 
@@ -32,3 +35,6 @@ https://vkcgithub2019.github.io/liri-node-app/
 
 Here is the link to the deployed Portfolio project
 https://vkcgithub2019.github.io/Responsive-Portfolio/
+
+Here is the link to my Github Repositories
+https://github.com/vkcgithub2019
