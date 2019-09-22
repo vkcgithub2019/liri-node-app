@@ -30,11 +30,4 @@ Screen shots from running the liri-bot (Victor Chung)
 Version: 01 8-26-2019 
 Author: Victor Chung, UW Coding Bootcamp
 
-Here is the link to the deployed project
-https://vkcgithub2019.github.io/liri-node-app/
 
-Here is the link to the deployed Portfolio project
-https://vkcgithub2019.github.io/Responsive-Portfolio/
-
-Here is the link to my Github Repositories
-https://github.com/vkcgithub2019
