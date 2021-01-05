@@ -4,7 +4,7 @@
   "description": "LIRI: language interpretation and recognition interface.This is a command line node app that takes in paramaters and return requested data. LIRI will search using commands like Spotify for songs, Bands in Town for concerts, and OMDB for movies. Axios package is used to send requests to retreive that data that powers this app.",
   "main": "keys.js",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "dotenv": "^8.1.0",
     "inquirer": "^7.0.0",
     "moment": "^2.24.0",
